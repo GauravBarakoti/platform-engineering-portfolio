@@ -114,8 +114,8 @@
       [['Rudrapur, Uttarakhand, India', 't-m']],
     ],
     experience: () => [
-      [['* ', 't-g'], ['a1f9c3e ', 't-y'], ['(HEAD → main) ', 't-g'], ['DevOps Team Lead @ Claudreck Technologies ', ''], ['Present', 't-m']],
-      [['* ', 't-g'], ['7be20d4 ', 't-y'], ['DevOps SRE @ Shipway by Unicommerce ', ''], ['Mar 2026 – Present', 't-m']],
+      [['* ', 't-g'], ['a1f9c3e ', 't-y'], ['(HEAD → main) ', 't-g'], ['DevOps Team Lead @ Claudreck Technologies ', ''], ['2024 – Present', 't-m']],
+      [['* ', 't-g'], ['7be20d4 ', 't-y'], ['DevOps SRE @ Shipway by Unicommerce ', ''], ['Mar 2026 – Aug 2026', 't-m']],
       [['* ', 't-g'], ['3c58e91 ', 't-y'], ['DevOps Engineer @ Sequifi ', ''], ['May 2025 – Sep 2025', 't-m']],
       [['* ', 't-g'], ['e04d7a2 ', 't-y'], ['DevOps Engineer @ OnGraph Technologies ', ''], ['Sep 2023 – May 2025', 't-m']],
       [['* ', 't-g'], ['0f00ba7 ', 't-y'], ['(init) ', 't-m'], ['DevOps Trainee @ To The New ', ''], ['Feb 2023 – Aug 2023', 't-m']],
@@ -123,7 +123,7 @@
     projects: () => [
       [['', 'nw'], ['NAMESPACE      NAME                 STATUS', 't-m']],
       [['', 'nw'], ['optum          ', 't-k'], ['dojo360-terraform    '], ['Running', 't-g']],
-      [['', 'nw'], ['newlist        ', 't-k'], ['aws-platform         '], ['Running', 't-g']],
+      [['', 'nw'], ['newlist        ', 't-k'], ['aws-platform         '], ['Delivered', 't-k']],
       [['', 'nw'], ['dashboard-lim  ', 't-k'], ['cloud-infra          '], ['Running', 't-g']],
       [['', 'nw'], ['shipway        ', 't-k'], ['do-to-aws-migration  '], ['Migrated', 't-g']],
       [['', 'nw'], ['quantum-bank   ', 't-k'], ['k8s-gitops-fixes     '], ['Healthy', 't-g']],

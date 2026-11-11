@@ -53,10 +53,10 @@ strengths: [cloud migrations, cost optimisation, security remediation, client co
 
 | | Project | What I did | Stack |
 |---|---|---|---|
-| 🟣 | **[Optum](https://www.optum.com) · Dojo360** | Terraform development and **reusable Terraform module development** for the Dojo360 module, part of Optum's public-cloud enablement (account bootstrap and networking) | Terraform · IaC modules |
-| 🟢 | **[NewLIST](http://www.newlist.com)** | Server operations and releases across test, stage and prod. Rolled out **Amazon Inspector** and fixed critical findings, and enabled CloudWatch on every environment | Elastic Beanstalk · CodePipeline · WAF · CloudFront · RDS |
-| 🟢 | **[Dashboard Lim](https://dashboard-lim.com)** | DevOps and cloud infrastructure for a boutique agency building business dashboards, API automations and AI tools | Cloud infra · Deployments · Automation |
-| 🔵 | **DigitalOcean → AWS migration** · Shipway | Led the migration of servers and services, scaled infrastructure and fixed critical **memory leaks** | AWS · DigitalOcean · SRE |
+| 🟣 | **[Optum](https://www.optum.com) · Dojo360**<br/><sub>2024 – Present</sub> | Terraform development and **reusable Terraform module development** for the Dojo360 module, part of Optum's public-cloud enablement (account bootstrap and networking) | Terraform · IaC modules |
+| ✅ | **[NewLIST](http://www.newlist.com)**<br/><sub>2024 – 2025</sub> | Server operations and releases across test, stage and prod. Rolled out **Amazon Inspector** and fixed critical findings, and enabled CloudWatch on every environment | Elastic Beanstalk · CodePipeline · WAF · CloudFront · RDS |
+| 🟢 | **[Dashboard Lim](https://dashboard-lim.com)**<br/><sub>2024 – Present</sub> | DevOps and cloud infrastructure for a boutique agency building business dashboards, API automations and AI tools | Cloud infra · Deployments · Automation |
+| 🔵 | **DigitalOcean → AWS migration** · Shipway<br/><sub>Mar – Aug 2026</sub> | Led the migration of servers and services, scaled infrastructure and fixed critical **memory leaks** | AWS · DigitalOcean · SRE |
 | 🟢 | **Westminiter** | ECR → ECS deploys with **lazy loading for a 4 GB image**. Terraform for EC2, IAM, S3, ECS, ECR, SQS, alarms, Bedrock and RDS, plus the Docker provider for image builds | Terraform · Docker · ECS · Bedrock |
 | ⭐ | **Quantum Bank World** (Upwork) | Fixed and deployed manifests on DigitalOcean with GitOps auto-updates. **5-star client rating** | Containers · GitOps |
 | ✅ | **Cloud Keeper** · To The New | Contributed during my internship and learned AWS Organizations in depth | AWS Organizations |
@@ -68,8 +68,8 @@ strengths: [cloud migrations, cost optimisation, security remediation, client co
 ## 🧭 Career: `git log --oneline`
 
 ```text
-* a1f9c3e (HEAD → main) DevOps Team Lead      @ Claudreck Technologies   Present
-* 7be20d4               DevOps SRE            @ Shipway by Unicommerce   Mar 2026 – Present
+* a1f9c3e (HEAD → main) DevOps Team Lead      @ Claudreck Technologies   2024 – Present
+* 7be20d4               DevOps SRE            @ Shipway by Unicommerce   Mar 2026 – Aug 2026
 * 3c58e91               DevOps Engineer       @ Sequifi                  May 2025 – Sep 2025
 * e04d7a2               DevOps Engineer       @ OnGraph Technologies     Sep 2023 – May 2025
 * 0f00ba7 (init)        DevOps Trainee        @ To The New               Feb 2023 – Aug 2023
@@ -78,7 +78,7 @@ strengths: [cloud migrations, cost optimisation, security remediation, client co
 <details>
 <summary><b>Highlights per role</b></summary>
 
-- **Claudreck Technologies:** leading the DevOps team. Terraform modules for Optum Dojo360; platforms for NewLIST and Dashboard Lim.
+- **Claudreck Technologies** (service-based, 2024 – Present): leading the DevOps team. Optum Dojo360 Terraform modules (2024 – Present), Dashboard Lim (2024 – Present) and NewLIST (2024 – 2025).
 - **Shipway by Unicommerce:** DigitalOcean → AWS migration, scaling, memory-leak fixes and high uptime.
 - **Sequifi:** GitHub Actions CI/CD, Ansible deploys, Sentry/CloudWatch monitoring and Python automation.
 - **OnGraph:** multi-cloud projects (AWS, GCP, DO, cPanel), Reserved Instance cost savings, Slack alerting and Upwork client management.
