@@ -22,6 +22,11 @@ I build cloud platforms that ship fast and stay up.
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=flat-square&logo=zapier&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -42,7 +47,10 @@ certified:
 clouds: [AWS, GCP, Railway, Heroku, DigitalOcean]
 iac: [Terraform (incl. reusable modules), Ansible]
 containers: [Docker, Amazon ECS/ECR, Elastic Beanstalk]
-automation: [GitHub Actions, Jenkins, CodePipeline, n8n, AWS Lambda, Python]
+ci_cd: [GitHub Actions, CircleCI, Jenkins, CodePipeline/CodeDeploy]
+automation: [n8n, Zapier, AWS Lambda, Python boto3, Ansible]
+data: [Amazon RDS, PostgreSQL, MySQL, MS SQL, MongoDB, Redis]
+connectivity: [AWS IAM, VPC, Security Groups, ALB/ELB, CloudFront, Cloudflare, DNS]
 observability: [CloudWatch, Sentry, Elasticsearch, Slack alerting]
 strengths: [cloud migrations, cost optimisation, security remediation, client communication, team leadership]
 ```
