@@ -115,7 +115,9 @@
     ],
     experience: () => [
       [['* ', 't-g'], ['a1f9c3e ', 't-y'], ['(HEAD → main) ', 't-g'], ['DevOps Team Lead @ Claudreck Technologies ', ''], ['2024 – Present', 't-m']],
+      [['* ', 't-g'], ['5d2a7b1 ', 't-y'], ['Platform Admin @ Dashboard Lim ', ''], ['2025 – Present', 't-m']],
       [['* ', 't-g'], ['7be20d4 ', 't-y'], ['DevOps SRE @ Shipway by Unicommerce ', ''], ['Mar 2026 – Aug 2026', 't-m']],
+      [['* ', 't-g'], ['9c41e0f ', 't-y'], ['DevOps Engineer @ NewLIST ', ''], ['Jun 2025 – Jan 2026', 't-m']],
       [['* ', 't-g'], ['3c58e91 ', 't-y'], ['DevOps Engineer @ Sequifi ', ''], ['May 2025 – Sep 2025', 't-m']],
       [['* ', 't-g'], ['e04d7a2 ', 't-y'], ['DevOps Engineer @ OnGraph Technologies ', ''], ['Sep 2023 – May 2025', 't-m']],
       [['* ', 't-g'], ['0f00ba7 ', 't-y'], ['(init) ', 't-m'], ['DevOps Trainee @ To The New ', ''], ['Feb 2023 – Aug 2023', 't-m']],
