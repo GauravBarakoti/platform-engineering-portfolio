@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Gaurav Barakoti · DevOps & Platform Engineer</title>
+  <meta name="description" content="Gaurav Barakoti: DevOps Team Lead and AWS Certified Solutions Architect (Professional). AWS, GCP, Terraform, Docker, Railway, Heroku, n8n automation and CI/CD." />
+  <meta name="theme-color" content="#0a0e14" />
+  <meta property="og:title" content="Gaurav Barakoti · DevOps & Platform Engineer" />
+  <meta property="og:description" content="DevOps Team Lead · AWS Certified Solutions Architect – Professional · AWS · GCP · Terraform · Docker · CI/CD" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gauravbarakoti.github.io/platform-engineering-portfolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#top" class="brand" aria-label="Gaurav Barakoti, home">
+        <span class="brand__prompt">~/</span><span class="brand__name">gaurav</span><span class="brand__cursor" aria-hidden="true"></span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">about</a>
+        <a href="#stack">stack</a>
+        <a href="#experience">experience</a>
+        <a href="#deployments">deployments</a>
+        <a href="#pipeline">pipeline</a>
+        <a href="#certs">certs</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--primary btn--sm nav__cta" href="#contact">./hire-me.sh</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"><div class="hero__grid"></div><div class="hero__glow"></div></div>
+      <div class="wrap hero__inner">
+        <div class="hero__copy">
+          <p class="status"><span class="status__dot"></span> online · DevOps Team Lead @ Claudreck Technologies</p>
+          <h1 class="hero__title">
+            I build cloud platforms that <span class="hl">ship fast</span> and <span class="hl hl--2">stay up.</span>
+          </h1>
+          <p class="hero__lead">
+            I'm <strong>Gaurav Barakoti</strong>, a DevOps Team Lead and <strong>AWS Certified Solutions Architect – Professional</strong>.
+            I design infrastructure with <strong>Terraform</strong>, containerise and run workloads on <strong>AWS, GCP, Railway &amp; Heroku</strong>,
+            and automate delivery and workflows, from <strong>CI/CD</strong> to <strong>n8n</strong>.
+          </p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#deployments">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              View deployments
+            </a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/gauravbarakoti" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.4V21h-4v-5.8c0-1.4 0-3.2-1.95-3.2S12.8 13.5 12.8 15.1V21H9z"/></svg>
+              LinkedIn
+            </a>
+            <a class="btn btn--ghost" href="https://github.com/GauravBarakoti" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.7 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <dl class="facts">
+            <div><dt>experience</dt><dd><span id="uptime">3y+</span></dd></div>
+            <div><dt>aws certs</dt><dd>3 <small>incl. SA Pro</small></dd></div>
+            <div><dt>platforms</dt><dd>AWS · GCP · Railway</dd></div>
+            <div><dt>upwork</dt><dd>★★★★★</dd></div>
+          </dl>
+        </div>
+
+        <!-- Interactive terminal -->
+        <div class="term" id="term">
+          <div class="term__bar">
+            <span class="term__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="term__title">gaurav@platform: ~</span>
+            <span class="term__hint">interactive</span>
+          </div>
+          <div class="term__body" id="termBody" aria-live="polite" tabindex="0">
+            <div id="termOut"></div>
+            <form class="term__line" id="termForm" autocomplete="off">
+              <label for="termInput" class="term__ps1"><span class="u">gaurav</span>@<span class="h">platform</span>:<span class="p">~</span>$</label>
+              <input id="termInput" class="term__input" type="text" spellcheck="false" autocapitalize="off" aria-label="Terminal command. Type help for a list of commands." />
+            </form>
+          </div>
+          <div class="term__chips" aria-label="Quick commands">
+            <button data-cmd="help">help</button>
+            <button data-cmd="whoami">whoami</button>
+            <button data-cmd="experience">experience</button>
+            <button data-cmd="projects">projects</button>
+            <button data-cmd="skills">skills</button>
+            <button data-cmd="certs">certs</button>
+            <button data-cmd="contact">contact</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <ul class="marquee" aria-label="Technologies">
+          <li>AWS</li><li>GCP</li><li>Terraform</li><li>Docker</li><li>Railway</li><li>Heroku</li><li>n8n</li><li>GitHub Actions</li><li>AWS Lambda</li><li>Ansible</li><li>Jenkins</li><li>DigitalOcean</li><li>Nginx</li><li>Cloudflare</li><li>CloudWatch</li><li>Sentry</li><li>Linux</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-kicker"><span>01</span> // about</p>
+          <h2>Reliable infrastructure, <span class="hl">calm on-call</span>, clear communication.</h2>
+        </header>
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              I'm a DevOps engineer turned <strong>team lead</strong> with a solid foundation in cloud infrastructure, containerisation
+              and CI/CD. Over the last few years I've led projects across <strong>AWS, GCP, Railway, Heroku, DigitalOcean, Terraform and Ansible</strong>,
+              migrated production workloads between clouds, and kept high-traffic sites up and fast.
+            </p>
+            <p>
+              I care about the boring things that make systems trustworthy: infrastructure as code, good alerts, sensible costs and
+              security findings that actually get fixed. I'm just as comfortable on a client call as I am in a terminal.
+            </p>
+          </div>
+          <ul class="caps reveal">
+            <li><span class="caps__ico" aria-hidden="true">{ }</span><div><h3>Infrastructure as Code</h3><p>Terraform modules and scripts for EC2, IAM, S3, ECS, ECR, SQS, RDS, Bedrock and more.</p></div></li>
+            <li><span class="caps__ico" aria-hidden="true">▣</span><div><h3>Containers &amp; PaaS</h3><p>Dockerising apps and shipping them to Amazon ECS/ECR, Elastic Beanstalk, Railway and Heroku.</p></div></li>
+            <li><span class="caps__ico" aria-hidden="true">⇢</span><div><h3>CI/CD &amp; Automation</h3><p>GitHub Actions, Jenkins and CodePipeline; Ansible roll-outs; <strong>n8n workflow automations</strong>, AWS Lambda and Python scripts.</p></div></li>
+            <li><span class="caps__ico" aria-hidden="true">◉</span><div><h3>Observability &amp; SRE</h3><p>CloudWatch, Sentry, Elasticsearch, Prometheus/Grafana and Slack alerting. Uptime first.</p></div></li>
+            <li><span class="caps__ico" aria-hidden="true">₹</span><div><h3>Cost &amp; Security</h3><p>Reserved Instance planning, Amazon Inspector remediation, WAF, IAM and CloudFront.</p></div></li>
+            <li><span class="caps__ico" aria-hidden="true">☍</span><div><h3>Leadership &amp; Clients</h3><p>Leading a DevOps team, managing client communication and turning requirements into reliable delivery.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section section--alt" id="stack">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-kicker"><span>02</span> // stack</p>
+          <h2>The toolchain, layer by layer</h2>
+          <p class="sec-sub">Hover a layer to light it up. Every tool here has been used in production or on client projects.</p>
+        </header>
+        <div class="stack">
+          <article class="layer reveal" style="--c: var(--amber)">
+            <header><span class="layer__n">L1</span><h3>Cloud</h3></header>
+            <ul><li>AWS</li><li>GCP</li><li>Railway</li><li>Heroku</li><li>DigitalOcean</li><li>AWS Lambda</li><li>Elastic Beanstalk</li><li>AWS Organizations</li><li>Bedrock</li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--purple)">
+            <header><span class="layer__n">L2</span><h3>Infrastructure as Code</h3></header>
+            <ul><li>Terraform</li><li>Terraform modules</li><li>Ansible</li><li>Docker provider</li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--cyan)">
+            <header><span class="layer__n">L3</span><h3>Containers &amp; Runtimes</h3></header>
+            <ul><li>Docker</li><li>Dockerization</li><li>Docker Compose</li><li>Amazon ECS / ECR</li><li>Railway</li><li>Heroku</li><li>Kubernetes <span class="dim">(early career)</span></li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--green)">
+            <header><span class="layer__n">L4</span><h3>CI/CD &amp; Automation</h3></header>
+            <ul><li>GitHub Actions</li><li>Jenkins</li><li>AWS CodePipeline</li><li>n8n automations</li><li>Ansible</li><li>Git / GitLab</li><li>ArgoCD</li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--red)">
+            <header><span class="layer__n">L5</span><h3>Observability</h3></header>
+            <ul><li>CloudWatch</li><li>Sentry</li><li>Elasticsearch</li><li>Slack alerts</li><li>Grafana</li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--blue)">
+            <header><span class="layer__n">L6</span><h3>Edge, Network &amp; Security</h3></header>
+            <ul><li>Nginx</li><li>Cloudflare</li><li>CloudFront</li><li>AWS WAF</li><li>DNS management</li><li>Amazon Inspector</li><li>IAM</li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--pink)">
+            <header><span class="layer__n">L7</span><h3>Systems &amp; Scripting</h3></header>
+            <ul><li>Linux</li><li>Python</li><li>Bash</li><li>Golang (scripting)</li><li>WHM / cPanel</li><li>LEMP</li></ul>
+          </article>
+          <article class="layer reveal" style="--c: var(--muted)">
+            <header><span class="layer__n">L8</span><h3>Runtimes I've deployed</h3></header>
+            <ul><li>PHP</li><li>Java</li><li>Python</li><li>Next.js</li><li>Ruby on Rails</li><li>Redis</li><li>Drupal</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE (git log) ============ -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-kicker"><span>03</span> // experience</p>
+          <h2><code>git log --oneline --graph career</code></h2>
+        </header>
+
+        <ol class="log">
+          <li class="commit commit--head reveal">
+            <div class="commit__rail" aria-hidden="true"><span class="commit__dot"></span></div>
+            <div class="commit__card">
+              <p class="commit__meta"><span class="sha">a1f9c3e</span> <span class="ref ref--head">HEAD → main</span> <span class="when">Present</span></p>
+              <h3>DevOps Team Lead <span class="at">@ Claudreck Technologies</span></h3>
+              <ul>
+                <li>Leading the DevOps team delivering cloud infrastructure, CI/CD and deployments for client platforms.</li>
+                <li><strong>Optum (Dojo360):</strong> Terraform development and reusable <strong>Terraform module development</strong> for the Dojo360 module.</li>
+                <li><strong>Dashboard Lim:</strong> DevOps and cloud infrastructure for a dashboards, API-automation and AI-tools agency.</li>
+                <li><strong>NewLIST:</strong> server operations and releases across test, stage and production on AWS.</li>
+              </ul>
+              <p class="tags"><span>Terraform</span><span>AWS</span><span>Team leadership</span><span>CI/CD</span></p>
+            </div>
+          </li>
+          <li class="commit reveal">
+            <div class="commit__rail" aria-hidden="true"><span class="commit__dot"></span></div>
+            <div class="commit__card">
+              <p class="commit__meta"><span class="sha">7be20d4</span> <span class="ref">shipway</span> <span class="when">Mar 2026 – Present</span></p>
+              <h3>DevOps SRE <span class="at">@ Shipway by Unicommerce · Gurgaon</span></h3>
+              <ul>
+                <li>Managed infrastructure scaling and resolved <strong>critical memory-leak issues</strong>, improving performance and stability.</li>
+                <li>Led the <strong>migration of servers and services from DigitalOcean to AWS</strong> with a smooth, reliable cut-over.</li>
+                <li>Maintained high site uptime and continuous availability of production environments.</li>
+              </ul>
+              <p class="tags"><span>AWS</span><span>DigitalOcean</span><span>SRE</span><span>Scaling</span></p>
+            </div>
+          </li>
+          <li class="commit reveal">
+            <div class="commit__rail" aria-hidden="true"><span class="commit__dot"></span></div>
+            <div class="commit__card">
+              <p class="commit__meta"><span class="sha">3c58e91</span> <span class="ref">sequifi</span> <span class="when">May 2025 – Sep 2025</span></p>
+              <h3>DevOps Engineer <span class="at">@ Sequifi · Gurgaon</span></h3>
+              <ul>
+                <li>Managed CI/CD pipelines with <strong>GitHub Actions</strong>; deployed updates with <strong>Ansible</strong>.</li>
+                <li>Monitored applications with Sentry and AWS CloudWatch; automated deployments and troubleshooting with Python.</li>
+                <li>Troubleshot application and server issues; Docker, Git/GitLab and Jira day to day.</li>
+              </ul>
+              <p class="tags"><span>GitHub Actions</span><span>Ansible</span><span>Sentry</span><span>Python</span></p>
+            </div>
+          </li>
+          <li class="commit reveal">
+            <div class="commit__rail" aria-hidden="true"><span class="commit__dot"></span></div>
+            <div class="commit__card">
+              <p class="commit__meta"><span class="sha">e04d7a2</span> <span class="ref">ongraph</span> <span class="when">Sep 2023 – May 2025</span></p>
+              <h3>DevOps Engineer <span class="at">@ OnGraph Technologies · Noida</span></h3>
+              <ul>
+                <li>Led multiple projects across <strong>AWS, GCP, DigitalOcean, WHM/cPanel, Terraform and Ansible</strong>, plus early Kubernetes work.</li>
+                <li>Monitored infrastructure and applications with Elasticsearch and CloudWatch; alerting on Slack.</li>
+                <li>Optimised AWS costs through <strong>Reserved Instance</strong> purchasing.</li>
+                <li>Deployed PHP, Java, Python, Next.js, Ruby on Rails and Redis workloads; managed client communication on Upwork.</li>
+              </ul>
+              <p class="tags"><span>Multi-cloud</span><span>Docker</span><span>Cost optimisation</span><span>Upwork</span></p>
+            </div>
+          </li>
+          <li class="commit reveal">
+            <div class="commit__rail" aria-hidden="true"><span class="commit__dot commit__dot--root"></span></div>
+            <div class="commit__card">
+              <p class="commit__meta"><span class="sha">0f00ba7</span> <span class="ref ref--init">init</span> <span class="when">Feb 2023 – Aug 2023</span></p>
+              <h3>DevOps Trainee (Internship) <span class="at">@ To The New · Dehradun</span></h3>
+              <ul>
+                <li>Bootcamp across Linux, Git, DBMS, Terraform, Ansible, Nginx/LEMP, Drupal, Prometheus, Grafana, Telegraf, InfluxDB, Docker, Kubernetes, Jenkins, AWS, ArgoCD, Argo Workflows and Go scripting.</li>
+                <li>Contributed to the <strong>Cloud Keeper</strong> project, building deep knowledge of AWS Organizations.</li>
+              </ul>
+              <p class="tags"><span>Bootcamp</span><span>AWS Organizations</span></p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ DEPLOYMENTS (projects) ============ -->
+    <section class="section section--alt" id="deployments">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-kicker"><span>04</span> // deployments</p>
+          <h2><code>kubectl get deployments</code> <span class="dim">-A</span></h2>
+          <p class="sec-sub">Selected client and product work. Filter by area:</p>
+        </header>
+
+        <div class="filters reveal" role="tablist" aria-label="Filter deployments">
+          <button role="tab" class="is-active" aria-selected="true" data-f="all">all</button>
+          <button role="tab" aria-selected="false" data-f="iac">terraform</button>
+          <button role="tab" aria-selected="false" data-f="containers">containers</button>
+          <button role="tab" aria-selected="false" data-f="aws">aws</button>
+          <button role="tab" aria-selected="false" data-f="migration">migration</button>
+        </div>
+
+        <div class="deploys" id="deploys">
+          <article class="dep dep--feature reveal" data-tags="iac aws">
+            <header class="dep__head">
+              <span class="pill pill--ok">● Running</span>
+              <span class="dep__ns">ns/optum</span>
+            </header>
+            <h3>Optum · Dojo360 Terraform modules</h3>
+            <p class="dep__link"><a href="https://www.optum.com" target="_blank" rel="noopener">optum.com ↗</a></p>
+            <p>Terraform development and <strong>reusable Terraform module development</strong> for Optum's <strong>Dojo360</strong> module, part of their public-cloud enablement for provisioning cloud accounts with standard bootstrap and networking.</p>
+            <pre class="code" aria-label="Illustrative module layout"><code><span class="c"># illustrative module layout</span>
+modules/
+├── <span class="k">account-bootstrap</span>/   <span class="c"># baseline IAM, logging, tags</span>
+├── <span class="k">networking</span>/          <span class="c"># VPC, subnets, routing</span>
+└── <span class="k">guardrails</span>/          <span class="c"># policies &amp; defaults</span>
+<span class="p">$</span> terraform plan <span class="ok">✓ no drift</span></code></pre>
+            <p class="tags"><span>Terraform</span><span>Modules</span><span>IaC</span><span>Cloud governance</span></p>
+            <p class="dep__via">via Claudreck Technologies</p>
+          </article>
+
+          <article class="dep reveal" data-tags="aws">
+            <header class="dep__head"><span class="pill pill--ok">● Running</span><span class="dep__ns">ns/newlist</span></header>
+            <h3>NewLIST</h3>
+            <p class="dep__link"><a href="http://www.newlist.com" target="_blank" rel="noopener">newlist.com ↗</a></p>
+            <p>Server operations and deployments across <strong>test, stage and production</strong>. Rolled out <strong>Amazon Inspector</strong> and fixed critical findings, and enabled CloudWatch monitoring on every environment.</p>
+            <p class="tags"><span>Elastic Beanstalk</span><span>CodePipeline</span><span>WAF</span><span>CloudFront</span><span>RDS</span><span>Inspector</span></p>
+            <p class="dep__via">via Claudreck Technologies</p>
+          </article>
+
+          <article class="dep reveal" data-tags="aws">
+            <header class="dep__head"><span class="pill pill--ok">● Running</span><span class="dep__ns">ns/dashboard-lim</span></header>
+            <h3>Dashboard Lim</h3>
+            <p class="dep__link"><a href="https://dashboard-lim.com" target="_blank" rel="noopener">dashboard-lim.com ↗</a></p>
+            <p>DevOps and cloud infrastructure for a boutique agency that builds <strong>business dashboards, API automations and AI tools</strong> for agencies and service brands.</p>
+            <p class="tags"><span>Cloud infra</span><span>Deployments</span><span>Automation</span></p>
+            <p class="dep__via">via Claudreck Technologies</p>
+          </article>
+
+          <article class="dep reveal" data-tags="migration aws">
+            <header class="dep__head"><span class="pill pill--ok">● Migrated</span><span class="dep__ns">ns/shipway</span></header>
+            <h3>DigitalOcean → AWS migration</h3>
+            <p class="dep__link">Shipway by Unicommerce</p>
+            <p>Led the move of servers and services from <strong>DigitalOcean to AWS</strong>, scaled infrastructure and resolved critical <strong>memory leaks</strong> to keep production stable during and after the move.</p>
+            <p class="tags"><span>Migration</span><span>AWS</span><span>Scaling</span><span>SRE</span></p>
+          </article>
+
+          <article class="dep reveal" data-tags="iac aws containers">
+            <header class="dep__head"><span class="pill pill--ok">● Running</span><span class="dep__ns">ns/westminiter</span></header>
+            <h3>Westminiter</h3>
+            <p class="dep__link">ECS · Terraform</p>
+            <p>Deployed images from <strong>ECR to ECS</strong> and sped up start-up of a <strong>4 GB image with lazy loading</strong>. Wrote Terraform for EC2, IAM, S3, ECS, ECR, SQS, CloudWatch alarms, Bedrock and RDS, and used the Docker provider to build and push images.</p>
+            <p class="tags"><span>Terraform</span><span>ECS</span><span>ECR</span><span>Bedrock</span><span>Lazy loading</span></p>
+          </article>
+
+          <article class="dep reveal" data-tags="containers">
+            <header class="dep__head"><span class="pill pill--ok">● Healthy</span><span class="dep__ns">ns/quantum-bank-world</span></header>
+            <h3>Quantum Bank World</h3>
+            <p class="dep__link">Upwork client · <span class="stars">★★★★★</span></p>
+            <p>Fixed Kubernetes manifests and deployed with <strong>Kustomize on DigitalOcean Kubernetes</strong>. Set up <strong>ArgoCD</strong> and <strong>Argo Image Updater</strong> for automatic image roll-outs. Resolved every issue and earned a <strong>5-star client rating</strong>.</p>
+            <p class="tags"><span>Kubernetes</span><span>Kustomize</span><span>ArgoCD</span><span>GitOps</span></p>
+          </article>
+
+
+          <article class="dep reveal" data-tags="aws">
+            <header class="dep__head"><span class="pill pill--done">✓ Completed</span><span class="dep__ns">ns/to-the-new</span></header>
+            <h3>Cloud Keeper</h3>
+            <p class="dep__link">To The New</p>
+            <p>Contributed to the Cloud Keeper project during my internship, gaining in-depth knowledge of <strong>AWS Organizations</strong> and multi-account services.</p>
+            <p class="tags"><span>AWS Organizations</span><span>Multi-account</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PIPELINE DEMO ============ -->
+    <section class="section" id="pipeline">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-kicker"><span>05</span> // how i ship</p>
+          <h2>A pipeline you can run</h2>
+          <p class="sec-sub">The delivery flow I build for teams: from commit to a containerised, monitored production deploy. Press run.</p>
+        </header>
+
+        <div class="pipe reveal" id="pipe">
+          <div class="pipe__top">
+            <p class="pipe__name"><span class="pipe__branch">main</span> · deploy.yml</p>
+            <div class="pipe__actions">
+              <span class="pipe__status" id="pipeStatus">idle</span>
+              <button class="btn btn--primary btn--sm" id="pipeRun">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.4-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>
+                Run pipeline
+              </button>
+            </div>
+          </div>
+          <ol class="stages" id="stages">
+            <li data-stage="commit"><span class="st__ico"></span><b>commit</b><small>git push</small></li>
+            <li data-stage="build"><span class="st__ico"></span><b>build</b><small>docker build</small></li>
+            <li data-stage="test"><span class="st__ico"></span><b>test</b><small>unit + lint</small></li>
+            <li data-stage="scan"><span class="st__ico"></span><b>scan</b><small>image + IaC</small></li>
+            <li data-stage="plan"><span class="st__ico"></span><b>plan</b><small>terraform plan</small></li>
+            <li data-stage="deploy"><span class="st__ico"></span><b>deploy</b><small>ECS rollout</small></li>
+            <li data-stage="monitor"><span class="st__ico"></span><b>monitor</b><small>alerts → slack</small></li>
+          </ol>
+          <div class="pipe__log" id="pipeLog" aria-live="polite"><span class="dim">$ waiting for a run… press “Run pipeline”.</span></div>
+        </div>
+        <p class="note">Illustrative pipeline: the stages and tools mirror real setups I've built with GitHub Actions, Docker, Terraform, Amazon ECS and CloudWatch.</p>
+      </div>
+    </section>
+
+    <!-- ============ CERTS + EDUCATION ============ -->
+    <section class="section section--alt" id="certs">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-kicker"><span>06</span> // certifications &amp; education</p>
+          <h2>Verified on the cloud, grounded in maths</h2>
+        </header>
+        <div class="certs">
+          <article class="cert cert--pro reveal">
+            <span class="cert__badge" aria-hidden="true">PRO</span>
+            <div><h3>AWS Certified Solutions Architect – Professional</h3><p>Amazon Web Services</p></div>
+          </article>
+          <article class="cert reveal">
+            <span class="cert__badge" aria-hidden="true">SAA</span>
+            <div><h3>AWS Certified Solutions Architect – Associate</h3><p>Amazon Web Services</p></div>
+          </article>
+          <article class="cert reveal">
+            <span class="cert__badge" aria-hidden="true">CLF</span>
+            <div><h3>AWS Certified Cloud Practitioner</h3><p>Amazon Web Services</p></div>
+          </article>
+          <article class="cert reveal">
+            <span class="cert__badge cert__badge--alt" aria-hidden="true">NET</span>
+            <div><h3>Demystifying Networking</h3><p>NPTEL · 2022</p></div>
+          </article>
+        </div>
+        <div class="edu">
+          <article class="edu__item reveal">
+            <p class="edu__when">2021 – 2023</p>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p>Amrapali Group of Institutes, Haldwani · 75.08%</p>
+          </article>
+          <article class="edu__item reveal">
+            <p class="edu__when">2018 – 2021</p>
+            <h3>B.Sc. in Mathematics</h3>
+            <p>Sardar Bhagat Singh Govt. PG College, Rudrapur</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <div class="contact__card reveal">
+          <p class="sec-kicker"><span>07</span> // contact</p>
+          <h2>Need a platform that just works?</h2>
+          <p class="contact__lead">Open to DevOps, SRE and platform-engineering conversations: full-time roles, leadership or consulting.</p>
+          <pre class="contact__cmd"><span class="p">$</span> ssh <span class="k">hello@gaurav-barakoti</span> <span class="c"># or pick one below</span></pre>
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="mailto:bestgaurav1234@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              Email me
+            </a>
+            <button class="btn btn--ghost" id="copyEmail" data-email="bestgaurav1234@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
+              <span>Copy email</span>
+            </button>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/gauravbarakoti" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a class="btn btn--ghost" href="https://github.com/GauravBarakoti" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p><span class="ok">●</span> all systems operational · © <span id="year">2026</span> Gaurav Barakoti</p>
+      <p class="dim">Rudrapur · Uttarakhand · India</p>
+      <a href="#top">↑ back to top</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
