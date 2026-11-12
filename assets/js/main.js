@@ -110,7 +110,7 @@
       [['Gaurav Barakoti', 't-b']],
       [['DevOps Team Lead', 't-g'], [' @ Claudreck Technologies']],
       [['AWS Certified Solutions Architect – Professional', 't-y']],
-      [['AWS · GCP · Terraform · Docker · Railway · Heroku · n8n · CI/CD', 't-m']],
+      [['AWS · GCP · Terraform · Docker · CI/CD', 't-m']],
       [['Rudrapur, Uttarakhand, India', 't-m']],
     ],
     experience: () => [
@@ -233,9 +233,7 @@
   const intro = async () => {
     print([['Last login: ', 't-m'], [new Date().toDateString(), 't-m'], [' on ttys001', 't-m']]);
     await typeAndRun('whoami');
-    await sleep(250);
-    await typeAndRun('kubectl get deployments');
-    print([['Type ', 't-m'], ['help', 't-k'], [' or tap a command below. Try ', 't-m'], ['sudo hire-me', 't-g'], [' 😉', 't-m']]);
+    print([['Try ', 't-m'], ['projects', 't-k'], [', ', 't-m'], ['help', 't-k'], [' or ', 't-m'], ['sudo hire-me', 't-g']]);
   };
   const tObs = new IntersectionObserver(es => { if (es[0].isIntersecting) { tObs.disconnect(); intro(); } }, { threshold: 0.3 });
   tObs.observe($('#term'));
